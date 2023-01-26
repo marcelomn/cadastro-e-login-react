@@ -1,15 +1,15 @@
-# cadastro-e-login-react
-Apenas para estudo da linguagem.
+<h3>cadastro-e-login-react</h3>
+<p>Apenas para estudo da linguagem.</p>
 
-# Para intalação das libs pode-se usar yarn ou npm
-Instalando o "styled components"
-yarn add styled-components
-npm install styled-components
+<h3>Para intalação das libs pode-se usar yarn ou npm</h3>
+<p>Instalando o "styled components"</p>
+<p>yarn add styled-components</p>
+<p>npm install styled-components</p>
 
-# Intalando a tipagem do "styled components" no modo de desenvolvimento
-yarn add -D @types/styled-components-react-native
-npm add -D @types/styled-components-react-native
+<h3>Intalando a tipagem do "styled components" no modo de desenvolvimento</h3>
+<p>yarn add -D @types/styled-components-react-native</p>
+<p>npm add -D @types/styled-components-react-native</p>
 
-# Para rodar o projeto
-yarn dev
-npm start
+<h3>Para rodar o projeto</h3>
+<p>yarn dev</p>
+<p>npm start</p>
