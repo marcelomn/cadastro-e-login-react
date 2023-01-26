@@ -1,0 +1,48 @@
+.App{
+  width: 300px;
+  margin: 2em auto;
+  padding: .8em;
+  background: #fff;
+}
+.form-login{
+  width: 100%;
+  display: block;
+}
+.form-login label{
+  display: block;
+}
+.form-login .form-input{
+  width: 90%;
+  padding: .4em;
+  display: block;
+  margin-bottom: .6em;
+  border-radius: 5px;
+  border: 1px solid #616161
+}
+input[type=submit]{
+  padding: .8em .10em;
+  width: 100%;
+}
+.error-field{
+  color: red;
+  font-size: 14px;
+}
+.password-validation{
+  margin-top: 20px;
+}
+.password-validation .not-validated,
+.password-validation .validated{
+  font-size: 14px;
+  padding-left: 22px;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position-y: -3px;
+}
+.password-validation .validated{
+  color: green;
+  background-image: url('../src/assets/icon-check-ok.png');
+}
+.password-validation .not-validated{
+  color: red;
+  background-image: url('../src/assets/icon-close.png');
+}
