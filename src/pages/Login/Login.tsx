@@ -105,14 +105,8 @@ export function Login(){
 
         <input type="submit" value="Acessar" />
       </form>
-
-      <div className="password-validation">
-        <h4>Sua senha deve conter:</h4>
-        <p className={validatePassword.length ? 'validated' : 'not-validated' }>Mínimo de 8 caracteres</p>
-        <p className={validatePassword.number ? 'validated' : 'not-validated' }>Numero</p>
-        <p className={validatePassword.case ? 'validated' : 'not-validated' }>Letra Maiúscula</p>
-        <p className={validatePassword.caracterSpecial ? 'validated' : 'not-validated' }>Caracter espercial</p>
-      </div>
+      
+      <a href='/cadastro' className='btn-link'>Quero me cadastrar</a>
     </div>
   )
 }

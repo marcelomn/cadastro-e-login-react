@@ -156,6 +156,8 @@ export function FormCreate(){
         <p className={validatePassword.case ? 'validated' : 'not-validated' }>Letra Maiúscula</p>
         <p className={validatePassword.caracterSpecial ? 'validated' : 'not-validated' }>Caracter espercial</p>
       </div>
+      <hr />
+      <a href='/login' className='btn-link'>Ir para tela de login</a>
     </div>
   )
 }

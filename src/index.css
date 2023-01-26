@@ -13,7 +13,7 @@
 }
 .form-login .form-input{
   width: 90%;
-  padding: .4em;
+  padding: .9em;
   display: block;
   margin-bottom: .6em;
   border-radius: 5px;
@@ -45,4 +45,12 @@ input[type=submit]{
 .password-validation .not-validated{
   color: red;
   background-image: url('../src/assets/icon-close.png');
+}
+.btn-link{
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 5px auto 0;
+  width: 150px;
+  text-decoration: none;
 }
