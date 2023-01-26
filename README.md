@@ -1,4 +1,4 @@
-<h3>cadastro-e-login-react</h3>
+<h1>cadastro-e-login-react</h1>
 <p>Apenas para estudo da linguagem.</p>
 
 <h3>Para intalação das libs pode-se usar yarn ou npm</h3>
